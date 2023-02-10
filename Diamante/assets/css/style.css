@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.section {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+.section1 {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 245, 202);
+}
+.section2 {
+    background-color: rgb(95, 95, 95);
+}
+
+header{
+    background-image: url(../img/invitacion1.png);
+    background-repeat: no-repeat;
+    height: 15rem;
+    background-size: contain;
+    background-position: center center;
+}
+
+.texto1 {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:small;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    margin:  2rem -7rem;
+}
+
+.cuenta-regresiva-contenedor > ul > li {
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.cuenta-regresiva-contenedor > ul > li {
+    width: 25%;
+    float: left;
+}
+li {
+    list-style: none ;
+}
+
+.calendario {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    display: flex;
+    align-content: center;
+    margin: 2rem 20rem;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+}
